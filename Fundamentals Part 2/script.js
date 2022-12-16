@@ -33,3 +33,34 @@ console.log(appleOrangeJuice);
 
 const num = Number("23");
  */
+
+/* // FUNCTION DECLARATION (you can call the function after declaring the variable)
+function calcAge1(birthYear) {
+  return 2022 - birthYear;
+}
+const age1 = calcAge1(1995);
+
+// FUNCTION EXPRESSION
+const calcAge2 = function (birthYear) {
+  return 2022 - birthYear;
+};
+const age2 = calcAge2(1995);
+
+console.log(age1, age2);
+ */
+
+/* // ARROW FUNCTION
+const calcAge3 = (birthYear) => 2022 - birthYear;
+const age3 = calcAge3(1995);
+console.log(age3);
+
+const yearsUntilRetirement = (birthYear, firstName) => {
+  const age = 2022 - birthYear;
+  const retirement = 65 - age;
+  // return retirement;
+  return `${firstName} retires in ${retirement} years.`;
+};
+
+console.log(yearsUntilRetirement(1995, "Paulo"));
+console.log(yearsUntilRetirement(1990, "Luís"));
+ */
