@@ -27,7 +27,7 @@ console.log(luxembourg);
 // ASSIGNEMENT 2 - Function Declarations vs. Expressions
 
 // Function Declaration
-function percentageOfWorld1(country, population) {
+/* function percentageOfWorld1(country, population) {
   const percentage = (population / 7900) * 100;
   return `${country} has ${population} million people, so its about ${percentage}% of the world population.`;
 }
@@ -63,4 +63,20 @@ percentageOfWorld3("China", 1441);
 percentageOfWorld3("Russia", 143);
 console.log(country1);
 console.log(country2);
-console.log(country3);
+console.log(country3); */
+
+/* // ASSIGNEMENT 3 - Functions Calling Other Functions
+function percentageOfWorld1(population) {
+  return (population / 7900) * 100;
+}
+
+function describePopulation(country, population) {
+  const percentage = percentageOfWorld1(population);
+
+  return `${country} has ${population} million people, so its about ${percentage}% of the world population.`;
+}
+
+console.log(describePopulation("Portugal", 11));
+console.log(describePopulation("China", 1441));
+console.log(describePopulation("Russia", 143));
+ */
