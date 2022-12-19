@@ -2,14 +2,6 @@
 
 // ASSIGNEMENT 1 - Functions
 
-/* 1. Write a function called 'describeCountry' which takes three parameters: 
-'country', 'population' and 'capitalCity'. Based on this input, the 
-function returns a string with this format: 'Finland has 6 million people and its 
-capital city is Helsinki'
-
-2. Call this function 3 times, with input data for 3 different countries. Store the 
-returned values in 3 different variables, and log them to the console */
-
 /* function describeCountry(country, population, capitalCity) {
   return `${country} has ${population} million people and its capital city is ${capitalCity}.`;
 }
@@ -79,4 +71,22 @@ function describePopulation(country, population) {
 console.log(describePopulation("Portugal", 11));
 console.log(describePopulation("China", 1441));
 console.log(describePopulation("Russia", 143));
+ */
+
+/* // ASSIGNEMENT 4 - Introduction to Arrays
+const populations = [11, 1441, 143, 331];
+
+console.log(populations.length - 1 === 4);
+
+function percentageOfWorld1(population) {
+  return (population / 7900) * 100;
+}
+
+const percentages = [
+  percentageOfWorld1(populations[0]),
+  percentageOfWorld1(populations[1]),
+  percentageOfWorld1(populations[2]),
+  percentageOfWorld1(populations[3]),
+];
+console.log(percentages);
  */
