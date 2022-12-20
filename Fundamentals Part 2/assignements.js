@@ -90,3 +90,19 @@ const percentages = [
 ];
 console.log(percentages);
  */
+
+// ASSIGNEMENT 5 - Basic Array Operations(Methods)
+/* const neighbours = ["Belgium", "France", "Germany"];
+neighbours.push("Utopia");
+console.log(neighbours);
+
+neighbours.pop(neighbours);
+console.log(neighbours);
+
+if (!neighbours.includes("Germany")) {
+  console.log("Probably not a central European country!");
+}
+
+neighbours[neighbours.indexOf("Germany")] = "Republic of Sweden";
+console.log(neighbours);
+ */

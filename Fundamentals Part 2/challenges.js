@@ -1,5 +1,7 @@
 "use strict";
 
+// ------------------ CHALLENGE #1
+
 /* const calcAverage = (score1, score2, score3) => (score1 + score2 + score3) / 3;
 
 function checkWinner(avgDolphins, avgKoalas) {
@@ -23,3 +25,26 @@ const avgKoalas = calcAverage(23, 34, 27);
 checkWinner(avgDolphins, avgKoalas);
 
  */
+
+// -------------------- CHALLENGE #2
+
+const calcTip = (bill) =>
+  bill >= 50 && bill <= 300 ? bill * 0.15 : bill * 0.2;
+
+console.log(calcTip(100));
+
+const bills = [125, 555, 44];
+
+const tips = [
+  calcTip(bills[0]),
+  calcTip(bills[1]),
+  calcTip(bills[bills.length - 1]),
+];
+console.log(tips);
+
+const total = [
+  bills[0] + calcTip(bills[0]),
+  bills[1] + calcTip(bills[1]),
+  bills[bills.length - 1] + calcTip(bills[bills.length - 1]),
+];
+console.log(total);

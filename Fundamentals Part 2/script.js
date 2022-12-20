@@ -148,3 +148,33 @@ const ages = [
 
 console.log(ages);
  */
+/* 
+const friends = ["SenpaiBot", "Rui-Zi", "Trainard"];
+
+// Add Elements
+const newLength = friends.push("DanyT");
+console.log(friends);
+console.log(newLength);
+
+friends.unshift("Gabriel");
+console.log(friends);
+
+// Remove Elements
+friends.pop(); // Last
+console.log(friends);
+const popped = friends.pop();
+console.log(friends, popped);
+
+friends.shift(); // First
+console.log(friends);
+
+console.log(friends.indexOf("Rui-Zi")); // Position of the element inside the array
+console.log(friends.indexOf("SenpaiBot"));
+
+console.log(friends.indexOf("DanyT")); // Element not in the array
+console.log(friends.includes("SenpaiBot")); // True or false for elemnt inside array
+
+if (friends.includes("SenpaiBot")) {
+  console.log("You have a friend called SenpaiBot");
+}
+ */
