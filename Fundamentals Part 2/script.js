@@ -178,3 +178,43 @@ if (friends.includes("SenpaiBot")) {
   console.log("You have a friend called SenpaiBot");
 }
  */
+
+const paulo = {
+  firstName: "Paulo",
+  lastName: "Rodrigues",
+  age: 2022 - 1995,
+  job: "deliveryman",
+  friends: ["SenpaiBot", "Trainard", "Rui-Zi"],
+};
+console.log(paulo);
+
+console.log(paulo.lastName); // Dot notation
+console.log(paulo["lastName"]);
+
+const nameKey = "Name";
+console.log(paulo["first" + nameKey]); // Bracket notation
+console.log(paulo["last" + nameKey]);
+
+// console.log(paulo.'last' + nameKey); * Doesn't work with dot notation
+const interestedIn = prompt(
+  "What do you want to know about Paulo? Choose between firstName, lastName, age, job or friends."
+);
+
+if (paulo[interestedIn]) {
+  console.log(paulo[interestedIn]);
+} else {
+  console.log(
+    "Wrong request! Choose between firstName, lastName, age, job or friends."
+  );
+}
+
+paulo.location = "Portugal";
+paulo["twitter"] = "@NeticDev";
+console.log(paulo);
+
+// Challenge
+// "Paulo has 3 friends, and his best friend is called SenpaiBot"
+
+console.log(
+  `${paulo.firstName} has ${paulo.friends.length} friends and his best friend is called ${paulo.friends[0]}`
+);
