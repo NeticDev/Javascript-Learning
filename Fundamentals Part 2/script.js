@@ -179,7 +179,7 @@ if (friends.includes("SenpaiBot")) {
 }
  */
 
-const paulo = {
+/* const paulo = {
   firstName: "Paulo",
   lastName: "Rodrigues",
   age: 2022 - 1995,
@@ -218,3 +218,45 @@ console.log(paulo);
 console.log(
   `${paulo.firstName} has ${paulo.friends.length} friends and his best friend is called ${paulo.friends[0]}`
 );
+ */
+
+/* const paulo = {
+  firstName: "Paulo",
+  lastName: "Rodrigues",
+  birthYear: 1995,
+  job: "deliveryman",
+  friends: ["SenpaiBot", "Trainard", "Rui-Zi"],
+  hasDriversLicense: true,
+
+  // calcAge: function (birthYear) {
+  //   return 2022 - birthYear;
+  // },
+
+  // calcAge: function () {
+  //   //  console.log(this);
+  //   return 2022 - this.birthYear;
+  // },
+
+  calcAge: function () {
+    this.age = 2022 - this.birthYear;
+    return this.age;
+  },
+
+  // Challenge
+  getSummary: function () {
+    return `${this.firstName} is a ${this.calcAge()}-years old ${
+      this.job
+    }, and he has ${this.hasDriversLicense ? "a" : "no"} driver's license.`;
+  },
+};
+
+console.log(paulo.calcAge());
+
+console.log(paulo.age);
+console.log(paulo.age);
+console.log(paulo.age);
+// console.log(paulo["calcAge"](1995));
+
+// Challenge
+console.log(paulo.getSummary());
+ */

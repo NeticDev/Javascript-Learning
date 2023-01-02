@@ -106,3 +106,48 @@ if (!neighbours.includes("Germany")) {
 neighbours[neighbours.indexOf("Germany")] = "Republic of Sweden";
 console.log(neighbours);
  */
+
+// ASSIGNEMENT 6 - Introduction to Objects
+
+/* const myCountry = {
+  country: "Portugal",
+  capital: "Lisboa",
+  language: "Portuguese",
+  population: 11,
+  neighbours: ["Spain"],
+}; */
+
+// ASSIGNEMENT 7 - Dot vs. Bracket Notation
+
+/* console.log(
+  `${myCountry.country} has ${myCountry.population} million ${myCountry.language}-speaking people, ${myCountry.neighbours.length} neighnouring countries and a capital called ${myCountry.capital}.`
+);
+
+myCountry.population += 2;
+console.log(myCountry.population);
+
+myCountry["population"] -= 2;
+console.log(myCountry.population);
+ */
+// ASSGIGNEMENT 8 - Object Methods
+
+/* const myCountry = {
+  country: "Portugal",
+  capital: "Lisboa",
+  language: "Portuguese",
+  population: 11,
+  neighbours: ["Spain"],
+
+  describe: function () {
+    return `${this.country} has ${this.population} million ${this.language}-speaking people, ${this.neighbours.length} neighnouring countries and a capital called ${this.capital}.`;
+  },
+
+  checkIsland: function () {
+    const isIsland = this.neighbours.length < 1 ? true : false;
+    return isIsland;
+  },
+};
+
+console.log(myCountry.describe());
+console.log(myCountry.checkIsland());
+ */
