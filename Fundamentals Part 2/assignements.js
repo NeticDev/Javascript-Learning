@@ -129,7 +129,7 @@ console.log(myCountry.population);
 myCountry["population"] -= 2;
 console.log(myCountry.population);
  */
-// ASSGIGNEMENT 8 - Object Methods
+// ASSIGNEMENT 8 - Object Methods
 
 /* const myCountry = {
   country: "Portugal",
@@ -151,3 +151,13 @@ console.log(myCountry.population);
 console.log(myCountry.describe());
 console.log(myCountry.checkIsland());
  */
+
+// ASSIGNEMENT 9 - Iteration: The for Loop
+
+/* for (let num = 1; num <= 50; num++) {
+  console.log(`Voter number ${num} is currently voting`);
+}
+ */
+
+// ASSIGNEMENT 10 - Looping Arrays, Breaking and Continuing
+

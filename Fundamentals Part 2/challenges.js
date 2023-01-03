@@ -48,7 +48,7 @@ console.log(total);
 
 // -------------------- CHALLENGE #3
 
-const mark = {
+/* const mark = {
   fullName: "Mark Miller",
   mass: 78,
   height: 1.69,
@@ -77,4 +77,4 @@ mark.BMI > john.BMI
     )
   : console.log(
       `${john.fullName}'s BMI (${john.BMI} is higher than ${mark.fullName}'s BMI (${mark.BMI}).`
-    );
+    ); */
