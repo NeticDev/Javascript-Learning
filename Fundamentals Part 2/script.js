@@ -273,6 +273,65 @@ console.log("Lifting weights repetition 9 🏋️‍♂️");
 console.log("Lifting weights repetition 10 🏋️‍♂️"); */
 
 // for loop keeps running while condition is TRUE
-for (let rep = 1; rep <= 10; rep++) {
+/* for (let rep = 1; rep <= 10; rep++) {
   console.log(`Lifting weights repetition ${rep} 🏋️‍♂️`);
 }
+ */
+
+/* const paulo = [
+  "Paulo",
+  "Rodrigues",
+  2022 - 1995,
+  "deliveryman",
+  ["RodpaDev", "Trainard", "Rui-Zi"],
+  true,
+];
+
+const types = [];
+
+// console.log(pauloArray[0])
+// console.log(pauloArray[1])
+// console.log(pauloArray[2])
+// console.log(pauloArray[3])
+// console.log(pauloArray[4])
+// pauloArray[5] does NOT exist
+
+for (let i = 0; i < paulo.length; i++) {
+  // Reading from paulo array
+  console.log(paulo[i], typeof paulo[i]);
+
+  // Filling types array
+  // types[i] = typeof paulo[i];
+
+  types.push(typeof paulo[i]);
+}
+
+console.log(types);
+
+const years = [1995, 2012, 1974, 2020];
+
+const ages = [];
+
+for (let i = 0; i < years.length; i++) {
+  ages.push(2022 - years[i]);
+}
+console.log(ages);
+
+// continue and break
+console.log("--- ONLY STRINGS ---");
+for (let i = 0; i < paulo.length; i++) {
+  if (typeof paulo[i] !== "string") continue;
+
+  console.log(paulo[i], typeof paulo[i]);
+}
+
+console.log("--- BREAK WITH NUMBER ---");
+for (let i = 0; i < paulo.length; i++) {
+  if (typeof paulo[i] === "number") break;
+
+  console.log(paulo[i], typeof paulo[i]);
+}
+
+ */
+
+

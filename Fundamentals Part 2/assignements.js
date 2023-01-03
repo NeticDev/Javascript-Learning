@@ -161,3 +161,26 @@ console.log(myCountry.checkIsland());
 
 // ASSIGNEMENT 10 - Looping Arrays, Breaking and Continuing
 
+/* function percentageOfWorld1(population) {
+  return (population / 7900) * 100;
+}
+
+const populations = [11, 1441, 143, 331];
+const percentages2 = [];
+
+for (let i = 0; i < populations.length; i++) {
+  percentages2.push(percentageOfWorld1(populations[i]));
+}
+
+// comparing to previous assignement
+const percentages = [
+  percentageOfWorld1(populations[0]),
+  percentageOfWorld1(populations[1]),
+  percentageOfWorld1(populations[2]),
+  percentageOfWorld1(populations[3]),
+];
+console.log(percentages, percentages2);
+ */
+
+// ASSIGNEMENT 11 - Looping Backwards and Loops in Loops
+
