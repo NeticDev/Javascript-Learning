@@ -317,6 +317,15 @@ for (let i = 0; i < years.length; i++) {
 }
 console.log(ages);
 
+const paulo = [
+  "Paulo",
+  "Rodrigues",
+  2022 - 1995,
+  "deliveryman",
+  ["RodpaDev", "Trainard", "Rui-Zi"],
+  true,
+];
+
 // continue and break
 console.log("--- ONLY STRINGS ---");
 for (let i = 0; i < paulo.length; i++) {
@@ -334,4 +343,25 @@ for (let i = 0; i < paulo.length; i++) {
 
  */
 
+/* const paulo = [
+  "Paulo",
+  "Rodrigues",
+  2022 - 1995,
+  "deliveryman",
+  ["RodpaDev", "Trainard", "Rui-Zi"],
+  true,
+];
+
+for (let i = paulo.length - 1; i >= 0; i--) {
+  console.log(i, paulo[i]);
+}
+
+for (let exercise = 1; exercise <= 3; exercise++) {
+  console.log(`--- Starting exercise ${exercise} ---`);
+
+  for (let rep = 1; rep < 6; rep++) {
+    console.log(`Exercise ${exercise}: Lifting weight repetition ${rep} 🏋️‍♂️`);
+  }
+}
+ */
 

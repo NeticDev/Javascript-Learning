@@ -183,4 +183,14 @@ console.log(percentages, percentages2);
  */
 
 // ASSIGNEMENT 11 - Looping Backwards and Loops in Loops
+/* 
+const listOfNeighbours = [
+  ["Canada", "México", "USA"],
+  ["Spain"],
+  ["Norway", "Sweden", "Russia"],
+];
 
+for (let i = 0; i < listOfNeighbours.length; i++)
+  for (let p = 0; p < listOfNeighbours[i].length; p++)
+    console.log(`Neighbour: ${listOfNeighbours[i][p]}`);
+ */
