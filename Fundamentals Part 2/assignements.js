@@ -194,3 +194,35 @@ for (let i = 0; i < listOfNeighbours.length; i++)
   for (let p = 0; p < listOfNeighbours[i].length; p++)
     console.log(`Neighbour: ${listOfNeighbours[i][p]}`);
  */
+
+// ASSIGNEMENT 12 - The while Loop
+
+/* function percentageOfWorld1(population) {
+  return (population / 7900) * 100;
+}
+
+const populations = [11, 1441, 143, 331];
+const percentages2 = [];
+const percentages3 = [];
+
+let i = 0;
+while (i < populations.length) {
+  percentages3.push(percentageOfWorld1(populations[i]));
+  i++;
+}
+
+console.log(percentages3);
+
+// comparing to previous assignements
+for (let i = 0; i < populations.length; i++) {
+  percentages2.push(percentageOfWorld1(populations[i]));
+}
+
+const percentages = [
+  percentageOfWorld1(populations[0]),
+  percentageOfWorld1(populations[1]),
+  percentageOfWorld1(populations[2]),
+  percentageOfWorld1(populations[3]),
+];
+console.log(percentages, percentages2);
+ */
